@@ -33,10 +33,13 @@ p {
 }
 
 header {
-    display: flex;
+    margin: 4rem 0;
+}
+
+.header__top {
+     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 4rem 0;
 }
 
 .header__nav ul{
