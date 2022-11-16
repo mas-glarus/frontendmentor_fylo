@@ -118,6 +118,7 @@ header {
     padding: 1rem 5rem;
     border: none;
     border-radius: 2rem;
+    cursor: pointer;
 }
 
 /*---Stats---*/
@@ -314,6 +315,7 @@ footer {
     border-radius: 2rem;
     margin: 1rem 1rem 0 1rem;
     width: 20em;
+    cursor: pointer;
 }
 
 .footer-content {
@@ -368,6 +370,14 @@ margin: 0;
 .menues__links-right ul li{
 opacity: .7;
 margin-bottom: .5rem;
+}
+
+.menues__links-left li:hover,
+.menues__links-right li:hover,
+.menues__socials img:hover {
+    color: var(--neutral);
+    opacity: 1;
+    cursor: pointer;
 }
 
 .menues__socials img {
